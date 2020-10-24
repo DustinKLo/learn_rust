@@ -65,6 +65,7 @@ fn main() {
     println!("transposed matrix function:\n{}\n", transpose(&mat));
     println!("\n");
 
+    // initializing slices: [type; size]
     let xs: [i32; 5] = [1, 2, 3, 4, 5];
     let ys: [i32; 500] = [0; 500];
     analyze_slice(&xs);
