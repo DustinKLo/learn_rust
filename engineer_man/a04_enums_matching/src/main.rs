@@ -1,3 +1,5 @@
+#![allow(unused_variables, dead_code)]
+
 fn main() {
     enum Color {
         Red,   // 0
